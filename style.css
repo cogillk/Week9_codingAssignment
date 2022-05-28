@@ -1,0 +1,53 @@
+body {
+    height:100vh;
+}
+
+
+.back {
+    background-image: url(images/books.jpg);
+    background-size:cover;
+    background-position-y:center;
+}
+
+.table-trans {
+    opacity: .8
+}
+
+.navbar-light .nav-color .navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-light .nav-color .navbar-nav .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+label, .newsletter{
+    color: white;
+}
+
+.pageHeader {
+    background-color: rgba(251, 251, 251, 0.6);
+    border-radius: 4px;
+    padding: 10px 15px 6px 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+.navbar-toggler {
+    background-color: rgba(251, 251, 251, 0.6);
+}
+
+
+
+.nextReads, .currentlyReading {
+    background-color: rgba(251, 251, 251, 0.6);
+    border-radius: 4px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+

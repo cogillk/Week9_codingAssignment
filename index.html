@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body class="back">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                <div classs="container-fluid">
+                    <button class="navbar-toggler" 
+                        type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNavDropdown" 
+                        aria-control="navbarNavDropdown" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                
+                <div class="collapse navbar-collapse justify-content-center nav-color" id="navbarNavDropdown" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item active ">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item d-none">
+                            <a class="nav-link" href="wishlist.html">T.B.R.</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="p-5 text-center">
+                <div class="pageHeader">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-black">
+                        <h1 class="mb-3">Kayleigh's Book Review Blog</h1>
+                        <h4 class="mb-3">Welcome to my blog, a place where I share book reviews and my To Be Read List along with some all time favorites!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-5 text-center">
+                <div class="currentlyReading">
+                    <div class="d-flex justify-content-center align-items-center h-50">
+                        <div class="text-black">
+                        <h2 class="mb-3">Currently Reading</h2>
+                        <p class="mb-3">Reminders of Him by Colleen Hoover</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nextReads">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h2 class="toBeRead text-center">To Be Read</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <h2 class="wishlist text-center">Wishlist</h2>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <li class="bookTitle text-center">The Silent Patient by Alex Michaelides</li>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <li class="bookTitle text-center">Daisy Jones & The Six by Taylor Jenkins Reid</li>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <li class="bookTitle text-center">Birthday Girl by Penelope Douglas</li>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <li class="bookTitle text-center">The Book Theif by Markus Zusak</li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <li class="bookTitle text-center">Corrupt by Penelope Douglas</li>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <li class="bookTitle text-center">Love and Other Words by Christina Lauren</li>
+                    </div>
+                </div>
+            </div>
+
+
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="newsletter text-center">Newsletter</h2>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <label>First Name</label>
+                            <input class="form-control" type="text" name="firstName">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label>Last Name</label>
+                            <input class="form-control" type="text" name="lastName">
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <label>Email Address</label>
+                        <input class="form-control" type="email" name="emailAddress">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <label></label>
+                        <button class="form-control btn btn-danger" type="submit" >Submit</button>
+                    </div>
+                </div>
+            </form>
+
+          </div>
+        </div>
+    </div>
+
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+
+</body>
